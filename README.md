@@ -80,4 +80,4 @@ tags = "@acessoFuncionario"
 
 ## Autor
 
-- [@nathterribile](https://github.com/nathterribile/Assistencia-Tecnica-Backend-Automacao)
+- [@nathterribile](https://github.com/nathterribile/Assistencia-Tecnica-Frontend-Automacao)
