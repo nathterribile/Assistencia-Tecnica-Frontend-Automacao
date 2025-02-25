@@ -1,52 +1,52 @@
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\ModalConfirmacaoAgendamentoPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\FecharModalAtencaoAgendamentoSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\CadastroOsSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\PedidoAlteracaoCadastroOsPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\AcessoOnboardingSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\CampoEquipamentoPaginaAgendamentoElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\ModalLoginPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\EnvioAlteracaoCadastroOsSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\FecharModalAtencaoAgendamentoElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\EnvioAlteracaoCadastroOsPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\AcessoFuncionariosElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\AcessoOnboardingElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\FecharModalAtencaoAgendamentoPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\CadastroOsElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\CampoEquipamentoPaginaAgendamentoSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\PedidoAlteracaoCadastroOsElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\BuscaOsPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\ModalConfirmacaoAgendamentoSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\browser\Edge.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\ModalConfirmacaoAgendamentoElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\CadastroOsPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\AcessoOnboardingPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\browser\GoogleChrome.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\utils\GlobalDriver.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\BuscaOsElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\CampoMarcaPaginaAgendamentoSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\AcessoFuncionariosPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\browser\Browser.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\runner\RunTest.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\ModalAtencaoAgendamentoElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\PedidoAlteracaoCadastroOsSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\ModalConfirmacaoAgendamentoRetornoOnboardingPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\AcessoPaginaAgendamentoSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\ModalAtencaoAgendamentoSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\ModalConfirmacaoAgendamentoRetornoOnboardingSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\ModalLoginSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\CampoMarcaPaginaAgendamentoElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\CampoMarcaPaginaAgendamentoPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\browser\IBrowser.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\ModalLoginElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\browser\Firefox.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\AcessoPaginaAgendamentoElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\ModalConfirmacaoAgendamentoRetornoOnboardingElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\BasePage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\elements\EnvioAlteracaoCadastroOsElements.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\BuscaOsSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\CampoEquipamentoPaginaAgendamentoPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\ModalAtencaoAgendamentoPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\browser\InternetExplorer.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\pages\AcessoPaginaAgendamentoPage.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\AcessoFuncionariosSteps.java
-C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia Tecnica - Frontend - Automacao\src\test\java\steps\BaseSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\AcessoOnboardingElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\BaseSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\FecharModalAtencaoAgendamentoSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\ModalConfirmacaoAgendamentoPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\ModalConfirmacaoAgendamentoRetornoOnboardingSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\AcessoPaginaAgendamentoPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\PedidoAlteracaoCadastroOsSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\ModalAtencaoAgendamentoPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\BuscaOsSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\FecharModalAtencaoAgendamentoElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\browser\Browser.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\ModalConfirmacaoAgendamentoRetornoOnboardingPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\CampoEquipamentoPaginaAgendamentoPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\AcessoFuncionariosElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\PedidoAlteracaoCadastroOsPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\ModalAtencaoAgendamentoSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\ModalLoginSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\ModalConfirmacaoAgendamentoSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\EnvioAlteracaoCadastroOsSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\EnvioAlteracaoCadastroOsElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\browser\Edge.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\BuscaOsPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\FecharModalAtencaoAgendamentoPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\runner\RunTest.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\AcessoOnboardingSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\BasePage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\ModalAtencaoAgendamentoElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\CadastroOsPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\CampoMarcaPaginaAgendamentoElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\AcessoPaginaAgendamentoSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\browser\Firefox.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\AcessoOnboardingPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\CampoEquipamentoPaginaAgendamentoElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\ModalConfirmacaoAgendamentoElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\ModalLoginPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\browser\InternetExplorer.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\CampoEquipamentoPaginaAgendamentoSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\ModalLoginElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\AcessoFuncionariosSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\BuscaOsElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\ModalConfirmacaoAgendamentoRetornoOnboardingElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\CadastroOsSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\PedidoAlteracaoCadastroOsElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\CampoMarcaPaginaAgendamentoPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\steps\CampoMarcaPaginaAgendamentoSteps.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\EnvioAlteracaoCadastroOsPage.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\browser\GoogleChrome.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\AcessoPaginaAgendamentoElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\elements\CadastroOsElements.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\utils\GlobalDriver.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\browser\IBrowser.java
+C:\Users\Nathalia Terribile\Desktop\Documentos\Assistencia-Tecnica-Frontend-Automacao\src\test\java\pages\AcessoFuncionariosPage.java

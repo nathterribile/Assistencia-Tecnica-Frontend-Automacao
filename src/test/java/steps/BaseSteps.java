@@ -1,11 +1,15 @@
 package steps;
 
-import io.cucumber.java.*;
-
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
 import pages.BasePage;
 import utils.GlobalDriver;
 
@@ -22,13 +26,13 @@ public class BaseSteps {
 
     @Before("@modalAtencaoAgendamento or @modalLogin")
     public static void acessoOnboarding(){
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
     }
 
     @Before("@fecharModalAtencaoAgendamento or @acessoPaginaAgendamento")
     public static void modalAtencaoAgendamento(){
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[1]/button")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div[2]/p")));
@@ -39,7 +43,7 @@ public class BaseSteps {
     public static void acessoPaginaAgendamento(){
         GlobalDriver.set();
         driver = GlobalDriver.get();
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div/button")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div[2]/p")));
@@ -51,7 +55,7 @@ public class BaseSteps {
     public static void preenchimentoPaginaAgendamento(){
         GlobalDriver.set();
         driver = GlobalDriver.get();
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div/button")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div[2]/p")));
@@ -67,7 +71,7 @@ public class BaseSteps {
     public static void acessoModalConfirmacaoAgendamento() throws InterruptedException{
         GlobalDriver.set();
         driver = GlobalDriver.get();
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div/button")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div[2]/p")));
@@ -84,14 +88,14 @@ public class BaseSteps {
     
     @Before("@acessoFuncionario")
     public static void acessoModalLogin(){
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/nav/div/div[2]/ul/li[2]/a")).click();
     }
 
     @Before("@cadastroOs or @buscaOs")
     public static void acessoPaginaOS(){
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/nav/div/div[2]/ul/li[2]/a")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/form/div[1]/input")));
@@ -102,7 +106,7 @@ public class BaseSteps {
 
     @Before("@pedidoAlteracaoCadastroOs")
     public static void pedidoAlteracaoCadastroOS() throws InterruptedException{
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/nav/div/div[2]/ul/li[2]/a")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/form/div[1]/input")));
@@ -124,7 +128,7 @@ public class BaseSteps {
 
     @Before("@envioAlteracaoCadastroOs")
     public static void envioAlteracaoCadastroOS() throws InterruptedException{
-        String OnboardingUrl = "http://localhost:8081/index.html#";
+        String OnboardingUrl = "http://localhost:1200/";
         BasePage.openBrowser(OnboardingUrl);
         BasePage.driver.findElement(By.xpath("/html/body/nav/div/div[2]/ul/li[2]/a")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/form/div[1]/input")));

@@ -1,17 +1,17 @@
 package steps;
 
+import org.junit.Assert;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
-
 import pages.CampoEquipamentoPaginaAgendamentoPage;
 
 public class CampoEquipamentoPaginaAgendamentoSteps {
 
 
         @Given("que o usuario esta na pagina de agendamento para selecionar o tipo de equipamento")
-        public void que_o_usuario_esta_na_pagina_de_agendamento_para_selecionar_o_tipo_de_equipamento() {              
+        public void que_o_usuario_esta_na_pagina_de_agendamento_para_selecionar_o_tipo_de_equipamento() {
                 
         }
 
@@ -27,7 +27,7 @@ public class CampoEquipamentoPaginaAgendamentoSteps {
                 CampoEquipamentoPaginaAgendamentoPage.clicarInputMarca();
                 String response = CampoEquipamentoPaginaAgendamentoPage.verificarMarca();
                 
-                response = response.replace("\n"," ");              
+                response = response.replace("\n"," ");
                 Assert.assertEquals(marcas, response);
                 
         }

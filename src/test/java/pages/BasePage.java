@@ -1,5 +1,9 @@
 package pages;
 
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -8,16 +12,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import steps.BaseSteps;
 
-import java.io.File;
-import java.io.IOException;
-import java.time.Duration;
+import steps.BaseSteps;
 
 
 public class BasePage extends BaseSteps {
 
-    static Duration timeoutInSeconds = Duration.ofSeconds(200);
+    static Duration timeoutInSeconds = Duration.ofSeconds(30);
 
     public BasePage(){}
 
@@ -34,7 +35,7 @@ public class BasePage extends BaseSteps {
     public static void openBrowser(String url){
         driver.manage().window().maximize();
         driver.navigate().to(url);
-    }    
+    }
 
     public static void waitVisibilityOf(WebElement element){
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
@@ -57,5 +58,5 @@ public class BasePage extends BaseSteps {
             e.printStackTrace();
         }
         return image;
-    }    
+    }
 }
