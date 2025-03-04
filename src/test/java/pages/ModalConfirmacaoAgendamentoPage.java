@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.support.PageFactory;
+
 import elements.ModalConfirmacaoAgendamentoElements;
 
 public class ModalConfirmacaoAgendamentoPage extends ModalConfirmacaoAgendamentoElements {
@@ -11,14 +12,16 @@ public class ModalConfirmacaoAgendamentoPage extends ModalConfirmacaoAgendamento
     
     
     public String verificarTextoBotaoAcessoModalAgendamento(){
-        BasePage.waitVisibilityOf(botaoAcessoModalAgendamento);
         BasePage.moveToElement(botaoAcessoModalAgendamento);
+        BasePage.waitVisibilityOf(botaoAcessoModalAgendamento);
         return botaoAcessoModalAgendamento.getText();
     }
     
     public void clicarBotaoAcessoModalAgendamento(){
+        BasePage.moveToElement(botaoAcessoModalAgendamento);
+        BasePage.waitVisibilityOf(botaoAcessoModalAgendamento);
         botaoAcessoModalAgendamento.click();
-    }    
+    }
     
     public String verificarTextoHeaderModal(){
         BasePage.waitVisibilityOf(textoHeaderModal);
@@ -35,7 +38,7 @@ public class ModalConfirmacaoAgendamentoPage extends ModalConfirmacaoAgendamento
 
     public String verificarIdfecharModalAgendamento(){
         BasePage.waitVisibilityOf(fecharModalAgendamento);
-        BasePage.moveToElement(fecharModalAgendamento);        
+        BasePage.moveToElement(fecharModalAgendamento);
         return fecharModalAgendamento.getAttribute("id");
     }
 

@@ -18,7 +18,7 @@ import steps.BaseSteps;
 
 public class BasePage extends BaseSteps {
 
-    static Duration timeoutInSeconds = Duration.ofSeconds(30);
+    static Duration timeoutInSeconds = Duration.ofSeconds(60);
 
     public BasePage(){}
 

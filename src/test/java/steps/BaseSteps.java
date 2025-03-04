@@ -61,9 +61,9 @@ public class BaseSteps {
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div[2]/p")));
         BasePage.driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div[2]/div/button")).click();
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/section/h2")));
-        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[1]/input")).sendKeys("Fulano Beltrano");        
-        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[2]/select")).sendKeys("smartphone");      
-        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[5]/input")).sendKeys("21022025");   
+        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[1]/input")).sendKeys("Fulano Beltrano");
+        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[2]/select")).sendKeys("smartphone");
+        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[5]/input")).sendKeys("21022025");
         BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[6]/textarea")).sendKeys("Tela trincada");
     }
 
@@ -79,7 +79,7 @@ public class BaseSteps {
         BasePage.waitVisibilityOf(BasePage.driver.findElement(By.xpath("/html/body/main/section/h2")));
         BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[1]/input")).sendKeys("Fulano Beltrano");        
         BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[2]/select")).sendKeys("smartphone");      
-        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[5]/input")).sendKeys("21022025");   
+        BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[5]/input")).sendKeys("21022025");
         BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[6]/textarea")).sendKeys("Tela trincada");
         BasePage.moveToElement(BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[7]/button")));
         BasePage.driver.findElement(By.xpath("/html/body/main/section/form/div/div[7]/button")).click();

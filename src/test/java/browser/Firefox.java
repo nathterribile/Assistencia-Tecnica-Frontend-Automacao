@@ -10,8 +10,9 @@ public class Firefox implements IBrowser{
         String driverPath = getDriverPathByOS("geckodriver");
         System.setProperty("webdriver.firefox.driver", driverPath);
 
-        FirefoxOptions firefoxOptions = new FirefoxOptions();
-        firefoxOptions.addArguments("start-maximized");
+        FirefoxOptions firefoxOptions = new FirefoxOptions();        
+        firefoxOptions.addArguments("--allow-system-access");
+        firefoxOptions.addArguments("--start-maximized");
 
         return new FirefoxDriver(firefoxOptions);
     }

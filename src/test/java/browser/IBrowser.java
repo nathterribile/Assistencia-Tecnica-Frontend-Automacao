@@ -4,8 +4,9 @@ import org.openqa.selenium.WebDriver;
 
 public interface IBrowser {
     default String getDriverPathByOS(String driverName){
-        String driverPath = "C:/Users/Nathalia Terribile/Desktop/Documentos/Assistencia-Tecnica-Frontend-Automacao/src/test/resources/drivers/";
-        String osName = "windows";
+        String path = System.getProperty("user.dir");
+        String driverPath = path + "\\src\\test\\resources\\drivers\\";
+        String osName = System.getProperty("os.name", "windows").toLowerCase();
 
         if(osName.contains("windows")) {
             return driverPath + driverName + ".exe";

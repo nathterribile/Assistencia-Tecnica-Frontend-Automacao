@@ -8,7 +8,7 @@ public class Browser {
     }
 
     private static IBrowser getBrowser(){
-        String browser = "chrome";
+        String browser = System.getProperty("browser", "edge");
 
         if(browser.equalsIgnoreCase("chrome")) return new GoogleChrome();
         else if(browser.equalsIgnoreCase("firefox")) return new Firefox();

@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "./src/test/resources/features",
         glue = {"steps"},
-        tags = "@buscaOs",
+        tags = "@modalConfirmacaoAgendamento",
         plugin = { "summary", "pretty", "json:target/jsonReports/cucumber-report.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
