@@ -1,7 +1,7 @@
 @acessoOnboarding
 Feature: ACESSO TELA ONBOARDING
 Scenario: Usuario acessa a tela Onboarding
-Given que o usuario quer acessar o link "http://localhost:1200/"
+Given que o usuario quer acessar o link "https://myassistassistenciatecnica.netlify.app/"
 When o usuario clica no link
 Then o sistema direciona para a tela Onboarding evidenciando o header da pagina com o logo da empresa, o nome da empresa "MyAssist"
 And os links de navegacao "Serviços" "Login"

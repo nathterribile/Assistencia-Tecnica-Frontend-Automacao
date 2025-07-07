@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+
 import elements.AcessoFuncionariosElements;
 
 public class AcessoFuncionariosPage extends AcessoFuncionariosElements {
@@ -74,7 +75,7 @@ public class AcessoFuncionariosPage extends AcessoFuncionariosElements {
         BasePage.waitVisibilityOf(textoSelectEquipamento);
         BasePage.moveToElement(textoSelectEquipamento);
         return textoSelectEquipamento.getText();
-    }   
+    }
 
     public String verificarTextoSelectDataEntrada(){
         BasePage.waitVisibilityOf(textoSelectDataEntrada);
@@ -116,7 +117,7 @@ public class AcessoFuncionariosPage extends AcessoFuncionariosElements {
         BasePage.waitVisibilityOf(selectEquipamto);
         BasePage.moveToElement(selectEquipamto);
         return selectEquipamto.findElements(By.xpath("option")).get(0).getText();
-    }   
+    }
 
     public static String verificarOptionDefaultSelectDataEntrada(){
         WebElement shadowHost = driver.findElement(By.cssSelector("#dataEntrada"));
