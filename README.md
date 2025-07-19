@@ -14,13 +14,6 @@ Backend automation of an web app for an technical assistance enterprise.
 - [REST-assured 5](https://rest-assured.io/ "REST-assured")
 
 
-## Stack
-
-**Front-end:** JavaScript
-**Back-end:** Java
-
-
-
 ## Functionalities
 
 - User generation for new employee
