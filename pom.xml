@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.myassist</groupId>
-    <artifactId>MyAssist-automacao-frontend</artifactId>
+    <artifactId>Assistencia-Tecnica-Web-Automacao-Desktop</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
